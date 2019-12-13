@@ -1,0 +1,56 @@
+h1{
+    font-family: 'Domine', serif;
+}
+
+p{
+    font-family: 'Quicksand', sans-serif;
+}
+.header{
+    color: white;
+    background-color: darkblue;
+    padding: 10px;
+    font-size: 15pt;
+}
+
+.nav, ul, li, a{
+    text-decoration: none;
+    color: white;
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 50px;
+    text-align: center;
+}
+
+button{
+    margin: 10px;
+    padding: 1px;
+    width: 3cm;
+    border-radius: 35px;
+    background-color: rgb(228, 178, 13);
+    font-size: 10pt;
+    font-weight: bold;
+    color: white;
+}
+
+.container > div:nth-child(odd) {
+text-align: center;
+text-align: center;
+    background-color: rgb(93, 146, 216);
+}
+
+.container > div:nth-child(even) {
+    text-align: center;
+    background-color: lightsteelblue;
+}
+
+a:hover{
+    color: rgb(228, 178, 13);
+}
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#formtitle{
+    font-size: 10pt;
+}
